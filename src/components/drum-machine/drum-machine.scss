@@ -1,0 +1,10 @@
+#drum-machine {
+  outline: 5px solid orange;
+  position: relative;
+  width: 760px;
+  text-align: center;
+  background-color: #b3b3b3;
+  @include media-breakpoint-down(md) {
+    width: 90vw;
+  }
+}
